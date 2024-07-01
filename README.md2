@@ -1,12 +1,20 @@
-- 👋 Hi, I’m @Fred-045
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+fruits = ["apple", "banana", "cherry"]
 
-<!---
-Fred-045/Fred-045 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Step 2: Access Elements
+print(fruits[0])  # Output: apple
+print(fruits[1])  # Output: banana
+print(fruits[-1]) # Output: cherry (last element)
+
+# Step 3: Modify Elements
+fruits[1] = "blueberry"
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry']
+
+# Step 4: Add Elements
+fruits.append("orange")
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'orange']
+
+# Step 5: Loop Through a List
+for fruit in fruits:
+    print(fruit)
+
+
